@@ -1,0 +1,74 @@
+.customclass {
+    color: white;
+
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    font-size: 80px;
+}
+
+div h1 {
+    background-color: black;
+    color: white;
+    font-size: 80px;
+}
+
+.customclass1 {
+    background-color: chartreuse;
+    font-family: Impact, Haettenschweiler,
+        'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+.customclass2 {
+    background-color: crimson;
+    font-family: Impact, Haettenschweiler,
+        'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+@keyframes BigIsBetter1 {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: whitesmoke;
+    }
+}
+
+@keyframes BigisBetter2 {
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: 50px
+    }
+
+    50% {
+        left: 0px
+    }
+
+    75% {
+        left: -50px
+    }
+
+    100% {
+        left: 0px;
+        padding: 10px
+    }
+}
+
+.BigisBetter:hover {
+background-color: black;
+color: white;
+animation-name: BigisBetter1;
+animation-duration: 5s;
+}
